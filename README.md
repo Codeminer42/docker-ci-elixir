@@ -6,6 +6,7 @@ Docker Elixir images used by Gitlab CI.
 
 The following dependencies are being installed on all images:
 
+* Mix
 * Node.js v4.4.7 and npm
 * PhantomJS v1.9.8
 

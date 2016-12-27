@@ -26,3 +26,6 @@ RUN curl -sSLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux
     tar -xJf "node-v$NODE_VERSION-linux-x64.tar.xz" -C /usr/local --strip-components=1 && \
     rm -f "node-v$NODE_VERSION-linux-x64.tar.xz" && \
     npm install npm -g
+
+# Install mix
+mix local.hex --force
